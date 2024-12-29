@@ -5,7 +5,7 @@ export default {
 	description: "Don't fall for the hype, the Wonder Valley data centre project is a terrible idea",
 	author: {
 		name: "Mr Roboto",
-		email: "hello@blundervalley.ca",
+		email: "welcometoblundervalley@protonmail.com",
 		url: "https://blundervalley.ca/about"
 	}
 }
