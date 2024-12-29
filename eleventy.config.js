@@ -63,11 +63,11 @@ export default async function(eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "Blog Title",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
+			title: "BlunderValley.ca",
+			subtitle: "Something doesn't add up about the Wonder Valley data centre project.",
+			base: "https://blundervalley.ca/",
 			author: {
-				name: "Your Name"
+				name: "Mr. Roboto"
 			}
 		}
 	});
@@ -119,7 +119,7 @@ export const config = {
 		"njk",
 		"html",
 		"liquid",
-		"11ty.js",
+		"11ty.js",  
 	],
 
 	// Pre-process *.md files with: (default: `liquid`)

@@ -4,11 +4,31 @@ const eleventyNavigation = {
 	order: 1
 };
 
-const numberOfLatestPostsToShow = 3;
+const numberOfLatestPostsToShow = 10;
 ---
+
+<p style="text-align:center"><i>This site is currently under construction</i></p>
+
+
+<img src="/img/Blunder-Valley-flames.jpg" alt="Welcome to Blunder Valley.">
+<h2>Kevin O'Leary says he wants to build a $100 billion data centre project in Northwestern Alberta.</h2>
+<p>If fully built, it would be the largest data centre park on the planet. He calls it "Wonder Valley."</p>
+<p>But should Canadians buy into what he's selling, or is Kevin O'Leary full of hot air and sales hype?</p>
+<p>Is this project good for people in the region?<br>
+Is it good for Albertans?<br>
+For Canadians?</p>
+<p>Or is it a massive waste of money and resources that will really only benefit a few people?</p>
+<p>This site's mission is to look beyond the marketing buzzwords and press releases, in order to answer these questions and more.</p>
+
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+
+<!--
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+-->
+
+<h1>Latest Posts</h1>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}

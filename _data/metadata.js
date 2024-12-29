@@ -1,11 +1,11 @@
 export default {
-	title: "Eleventy Base Blog v9",
-	url: "https://example.com/",
+	title: "BlunderValley.ca",
+	url: "https://blundervalley.ca",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "Don't fall for the hype, the Wonder Valley data centre project is a terrible idea",
 	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
+		name: "Mr Roboto",
+		email: "hello@blundervalley.ca",
+		url: "https://blundervalley.ca/about"
 	}
 }

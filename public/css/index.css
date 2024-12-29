@@ -1,6 +1,25 @@
+/* My Custom Fonts */
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/lato-regular.woff2') format('woff2'),
+         url('/fonts/lato-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('/fonts/robotoslab-regular.woff2') format('woff2'),
+         url('/fonts/robotoslab-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Defaults */
 :root {
-	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family: Lato, arial, -apple-system, system-ui, sans-serif;
+	--font-headings: Roboto Slab, fira sans;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
@@ -10,12 +29,20 @@
 	--color-gray-50: #C0C0C0;
 	--color-gray-90: #333;
 
-	--background-color: #fff;
+	--background-color: #ffffff;
 
 	--text-color: var(--color-gray-90);
 	--text-color-link: #082840;
 	--text-color-link-active: #5f2b48;
 	--text-color-link-visited: #17050F;
+
+	--heading-color: rgb(50, 58, 87);
+
+	--color-highlight: rgb(100, 20, 20);
+	--header: #fff;
+	--header-visited: #faf;
+	--header-hover: #aaf;
+	--header-active: #fff;
 
 	--syntax-tab-size: 2;
 }
@@ -27,11 +54,21 @@
 		--color-gray-90: #dad8d8;
 
 		/* --text-color is assigned to --color-gray-_ above */
+		
+		
 		--text-color-link: #1493fb;
 		--text-color-link-active: #6969f7;
 		--text-color-link-visited: #a6a6f8;
 
-		--background-color: #15202b;
+		--heading-color: #ffcc88;
+
+		--color-highlight: #c11;
+		--header: #fff;
+		--header-visited: #eee;
+		--header-hover: #aaf;
+		--header-active: #fff;
+
+		--background-color: #1c1c1c;
 	}
 }
 
@@ -84,6 +121,11 @@ img[src$=".svg"] {
   max-width: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-headings);
+	color: var(--heading-color);
+}
+
 p:last-child {
 	margin-bottom: 0;
 }
@@ -115,8 +157,24 @@ main :first-child {
 }
 
 header {
-	border-bottom: 1px dashed var(--color-gray-20);
+	background-color: var(--color-highlight);
+	/*border-bottom: 1px solid var(--color-gray-20);*/
+	color: #fff;
 }
+header a[href]: {
+	color: var(--header);
+}
+header a[href]:visited {
+	color: var(--header-visited);
+}
+header a[href]:hover {
+	color: var(--header-hover);
+}
+header a[href]:active {
+	color: var(--header-active);
+}
+
+
 header:after {
 	content: "";
 	display: table;
@@ -248,6 +306,13 @@ header {
 	font-weight: bold;
 }
 
+.postlist-image {
+	width: 240px;
+	height: 180px;
+	background-size: cover;
+	background-position: center;
+}
+
 /* Tags */
 .post-tag {
 	display: inline-flex;
@@ -264,7 +329,7 @@ header {
 .post-metadata {
 	display: inline-flex;
 	flex-wrap: wrap;
-	gap: .5em;
+	gap: 0.5em;
 	list-style: none;
 	padding: 0;
 	margin: 0;
