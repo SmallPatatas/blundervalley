@@ -3,7 +3,7 @@ title: So Many Unanswered Questions
 description: What information is being kept from the public?
 date: 2024-12-26
 tags: ["transparency", "water", "noise", "carbon emissions", "energy", "finances"]
-image: "/img/black-box.jpg"
+image: "/img/black-box-2.jpg"
 image_alt: "a black box"
 ---
 
@@ -45,7 +45,8 @@ AI companies are <a href="https://futurism.com/the-byte/microsoft-losing-money-a
 ## Carbon emissions
 
 * How much CO2 will this project be responsible for emitting?
-* Will this project mean that Canadians end up paying higher carbon taxes, as a method of reducing emissions elsewhere?
+* Will this project mean that Canadians end up paying higher carbon taxes, as a method of reducing emissions elsewhere?<br>
+
 Carbon Capture and Storage is <a href="https://climate.mit.edu/ask-mit/if-fossil-fuel-power-plant-uses-carbon-capture-and-storage-what-percent-energy-it-makes" target="_blank">expensive and difficult to implement</a>. 
 * What percentage of carbon emissions will be captured and stored?
 * How will those emissions be captured and stored?
@@ -57,7 +58,7 @@ Carbon Capture and Storage is <a href="https://climate.mit.edu/ask-mit/if-fossil
 
 ### *Have more questions?*
 
-If you have a question about the Wonder Valley project, feel free to get in touch, and I'll add it to the list! You can send your questions to: welcometoblundervalley *at* protonmail *dot* com
+If you have a question about the Wonder Valley project, feel free to get in touch, and I'll add it to the list! You can send your questions to:<br><br>welcometoblundervalley *at* protonmail *dot* com
 
 <br>
 
