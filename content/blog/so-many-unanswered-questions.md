@@ -1,5 +1,5 @@
 ---
-title: Too Many Unanswered Questions
+title: So Many Unanswered Questions
 description: What information is being kept from the public?
 date: 2024-12-26
 tags: ["transparency", "water", "noise", "carbon emissions", "energy", "finances"]
