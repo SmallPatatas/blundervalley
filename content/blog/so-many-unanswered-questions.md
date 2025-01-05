@@ -18,7 +18,7 @@ But as of December 26, 2024, the public has virtually no answers to the huge num
 * To what extent will this project worsen drought conditions in the region and/or increase wildfire risk?
 * Will the unevaporated portion of water drawn be sufficiently cooled and free of industrial contaminants before being dumped back into the local environment? How will this be ensured?
 
-(see also <a href="blundervalley.ca/blog/water-consumption/">this post</a> about the extraordinary amount of water consumed by data centres and gas plants)
+(see also <a href="https://blundervalley.ca/blog/water-consumption/">this post</a> about the extraordinary amount of water consumed by data centres and gas plants)
 
 ## Cost to the Public
 
