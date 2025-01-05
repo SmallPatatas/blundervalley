@@ -5,11 +5,41 @@
   <subtitle>Something doesn&#39;t add up about the Wonder Valley data centre project.</subtitle>
   <link href="https://blundervalley.ca/feed/feed.xml" rel="self" />
   <link href="https://blundervalley.ca/" />
-  <updated>2024-12-26T00:00:00Z</updated>
+  <updated>2025-01-04T00:00:00Z</updated>
   <id>https://blundervalley.ca/</id>
   <author>
     <name>Mr. Roboto</name>
   </author>
+  <entry>
+    <title>The Water Consumption Question</title>
+    <link href="https://blundervalley.ca/blog/water-consumption/" />
+    <updated>2025-01-04T00:00:00Z</updated>
+    <id>https://blundervalley.ca/blog/water-consumption/</id>
+    <content type="html">&lt;h2 id=&quot;how-much-water-will-this-project-consume-exactly&quot;&gt;How much water will this project consume, exactly?&lt;/h2&gt;
+&lt;h3 id=&quot;a-quick-look-at-the-numbers&quot;&gt;A quick look at the numbers:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Data centres can consume (evaporate) between 1 and 9 litres of water per kWh used&lt;/li&gt;
+&lt;li&gt;even assuming only 1L/kWh, a 7.5 GW data centre will consume 65.7 million cubic metres of water per year (65.7 billion L/year)&lt;/li&gt;
+&lt;li&gt;gas plants consume about 2L water for every 1kWh produced&lt;/li&gt;
+&lt;li&gt;at this rate, 7.5GW gas plant generation consumes 131.4 million cubic metres of water per year (131.4 billion L/year)&lt;/li&gt;
+&lt;li&gt;Carbon Capture &amp;amp; Storage (CCS), if implemented, can increase this figure to between 2.6L/kWh and 3.36L/kWh&lt;/li&gt;
+&lt;li&gt;This means an additional 40 to 90 million cubic metres of water consumed per year&lt;/li&gt;
+&lt;li&gt;All told, this project could consume on the order of 280 billion litres of water per year&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;It&#39;s important to note that these figures are not based on information from the project itself. That&#39;s because at present, almost no information has been made public. O&#39;Leary Ventures and the Greenview Industrial Gateway must immediately make details available about the exact technologies they plan to deploy, so that the public can properly assess the project&#39;s likely impact on the surrounding communities and natural environment.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;data-centres&quot;&gt;Data Centres&lt;/h3&gt;
+&lt;p&gt;Data centres use a &lt;em&gt;lot&lt;/em&gt; of water. Figures vary, and some tech companies have a habit of &lt;a href=&quot;https://archive.is/lBf5H&quot; target=&quot;_blank&quot;&gt;cooking the books&lt;/a&gt; when it comes to documenting their resource consumption.&lt;/p&gt;
+&lt;p&gt;One number we have is from Meta: they &lt;a href=&quot;https://dgtlinfra.com/data-center-water-usage/#Water_Usage_Effectiveness_WUE&quot; target=&quot;_blank&quot;&gt;estimate&lt;/a&gt; that the industry average is 1.8L of water consumed (evaporated) for every 1kWh of electricity used by a data centre. Other &lt;a href=&quot;https://arxiv.org/pdf/2304.03271&quot; target=&quot;_blank&quot;&gt;research&lt;/a&gt; gives a range of between 1L and 9L consumed per kWh.&lt;/p&gt;
+&lt;p&gt;Now, outside temperatures play a big role in determining the amount of water consumed, and it&#39;s true that the cooler climate in Northern Alberta is an advantage here for much of the year. But when we&#39;re talking about a 7.5GW project, even that low-end estimate of 1L/kWh represents an enormous amount of water: over the course of a year, this works out to &lt;strong&gt;65.7 million cubic metres of water&lt;/strong&gt;, a figure that is already more than 2x the &lt;a href=&quot;https://greenviewindustrial.ca/wp-content/uploads/2023/03/Water2-1200x681.png&quot; target=&quot;_blank&quot;&gt;24 million cubic metres&lt;/a&gt; that the Greenview Industrial Gateway (GIG) has asked for permission to use.&lt;/p&gt;
+&lt;p&gt;And we haven&#39;t even gotten to the water use of gas plants.&lt;/p&gt;
+&lt;h3 id=&quot;gas-plants&quot;&gt;Gas Plants&lt;/h3&gt;
+&lt;p&gt;The water consumption of a typical &#39;wet-cooled&#39; gas plant is roughly &lt;a href=&quot;https://sequestration.mit.edu/pdf/2012_AD_HJH_WorkingPaper-WaterUse_at_PowerPlants.pdf&quot; target=&quot;blank&quot;&gt;2L per kWh generated&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There are also &#39;dry-cooled&#39; gas plants that use almost no water for cooling. However, given that the GIG&#39;s executive director Kyle Reiling said in an interview that when it comes to this project, &lt;a href=&quot;https://youtu.be/yVKxjAQyMTg&quot; target=&quot;_blank&quot;&gt;&amp;quot;the large majority of the water is for the electrical production&amp;quot;&lt;/a&gt;, it&#39;s a safe assumption that these proposed gas plants are the kind that use a ton of water. At 7.5 GW total, and a rate of 2L per kWh, power generation would require a staggering &lt;strong&gt;131.4 billion litres&lt;/strong&gt; of water each year.&lt;/p&gt;
+&lt;h3 id=&quot;but-wait-theres-more&quot;&gt;But wait, there&#39;s more&lt;/h3&gt;
+&lt;p&gt;Because gas plants represent a massive amount of carbon emissions compared to energy generation from renewables like wind and solar, advocates of burning fossil fuels like to talk about Carbon Capture and Storage (CCS) as a way to lower the carbon footprint of projects like this one.&lt;/p&gt;
+&lt;p&gt;But not only does CCS &lt;a href=&quot;https://climate.mit.edu/ask-mit/if-fossil-fuel-power-plant-uses-carbon-capture-and-storage-what-percent-energy-it-makes&quot; target=&quot;_blank&quot;&gt;increase the cost&lt;/a&gt; of energy generation at a time when wind and solar are already the less expensive options, it also increases a gas plant&#39;s water consumption significantly. Depending on the exact process, this increase is likely between &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S1876610217319720&quot; target=&quot;_blank&quot;&gt;31% and 68%&lt;/a&gt;. This means that, if O&#39;Leary and the GIG are planning on capturing carbon emissions, these gas plants would consume between &lt;strong&gt;171 billion and 220 billion litres of water per year - around 7 to 10 times the amount of water they&#39;ve asked for permission to use&lt;/strong&gt;. Add this to the earlier estimate of water consumption by the data centres themselves, and the total could well reach &lt;strong&gt;280 billion litres per year&lt;/strong&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>So Many Unanswered Questions</title>
     <link href="https://blundervalley.ca/blog/so-many-unanswered-questions/" />
@@ -20,11 +50,11 @@
 &lt;h2 id=&quot;water&quot;&gt;Water&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;How much water will this project consume?&lt;/li&gt;
-&lt;li&gt;Where will the water be drawn from?&lt;/li&gt;
 &lt;li&gt;How will the water use affect communities and farmers in the region?&lt;/li&gt;
 &lt;li&gt;To what extent will this project worsen drought conditions in the region and/or increase wildfire risk?&lt;/li&gt;
-&lt;li&gt;Will water be sufficiently cooled and free of industrial contaminants before being dumped? How will this be done?&lt;/li&gt;
+&lt;li&gt;Will the unevaporated portion of water drawn be sufficiently cooled and free of industrial contaminants before being dumped back into the local environment? How will this be ensured?&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;(see also &lt;a href=&quot;https://blundervalley.ca/blog/so-many-unanswered-questions/blundervalley.ca/blog/water-consumption/&quot;&gt;this post&lt;/a&gt; about the extraordinary amount of water consumed by data centres and gas plants)&lt;/p&gt;
 &lt;h2 id=&quot;cost-to-the-public&quot;&gt;Cost to the Public&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;What subsidies, grants, or loans will this project be asking different levels of government for?&lt;/li&gt;
@@ -35,6 +65,7 @@
 &lt;p&gt;Most jobs associated with data centre projects are short term for the construction phase.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;How many of the &amp;quot;thousands of jobs&amp;quot; that will supposedly be created are only temporary, and how many are permanent positions?&lt;/li&gt;
+&lt;li&gt;On the Wonder Valley website, the image showing the &#39;Development Concept Plan&#39; includes a large area labeled &#39;Worker Camp&#39;. Does this mean that most workers will be temporary employees, and hired from outside the local area?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;noise&quot;&gt;Noise&lt;/h2&gt;
 &lt;p&gt;Noise from data centres has led to &lt;a href=&quot;https://time.com/6982015/bitcoin-mining-texas-health/&quot; target=&quot;_blank&quot;&gt;severe health problems&lt;/a&gt; for residents (including people, pets and livestock) in surrounding areas.&lt;/p&gt;
