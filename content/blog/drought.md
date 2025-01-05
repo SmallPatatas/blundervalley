@@ -1,6 +1,6 @@
 ---
-title: The Water Question
-description: How much water will this project consume?
+title: Data Centres Make Drought Worse
+description: Will this project exacerbate the ongoing drought conditions in Alberta?
 date: 2025-01-04
 tags: ["water", "environment", "drought", "wildfires"]
 draft: true
