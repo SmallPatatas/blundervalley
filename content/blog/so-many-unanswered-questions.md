@@ -2,7 +2,7 @@
 title: So Many Unanswered Questions
 description: What information is being kept from the public?
 date: 2024-12-26
-tags: ["transparency", "water", "noise", "carbon emissions", "energy", "finances"]
+tags: ["transparency", "water use", "noise", "carbon emissions", "energy", "finances"]
 image: "/img/black-box-2.jpg"
 image_alt: "a black box"
 ---
@@ -14,10 +14,11 @@ But as of December 26, 2024, the public has virtually no answers to the huge num
 ## Water
 
 * How much water will this project consume?
-* Where will the water be drawn from? 
 * How will the water use affect communities and farmers in the region?
 * To what extent will this project worsen drought conditions in the region and/or increase wildfire risk?
-* Will water be sufficiently cooled and free of industrial contaminants before being dumped? How will this be done?
+* Will the unevaporated portion of water drawn be sufficiently cooled and free of industrial contaminants before being dumped back into the local environment? How will this be ensured?
+
+(see also <a href="blundervalley.ca/blog/water-consumption/">this post</a> about the extraordinary amount of water consumed by data centres and gas plants)
 
 ## Cost to the Public
 
@@ -29,6 +30,7 @@ But as of December 26, 2024, the public has virtually no answers to the huge num
 
 Most jobs associated with data centre projects are short term for the construction phase. 
 * How many of the "thousands of jobs" that will supposedly be created are only temporary, and how many are permanent positions?
+* On the Wonder Valley website, the image showing the 'Development Concept Plan' includes a large area labeled 'Worker Camp'. Does this mean that most workers will be temporary employees, and hired from outside the local area?
 
 ## Noise
 
