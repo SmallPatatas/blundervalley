@@ -18,7 +18,7 @@ image_alt: "Smoky & Peace Rivers, Alberta, Canada"
 * This means an additional 40 to 90 million cubic metres of water consumed per year
 * All told, this project could consume on the order of 280 billion litres of water per year
 
-**It's important to note that these figures are not based on information from the project itself. That's because at present, almost no information has been made public. O'Leary Ventures and the Greenview Industrial Gateway must immediately make details available about the exact technologies they plan to deploy, so that the public can properly assess the project's likely impact on the surrounding communities and natural environment.**
+**It's important to note that these figures are not based on information from the project itself. That's because at present, almost no information has been made public. O'Leary Ventures and the Greenview Industrial Gateway must immediately make details available about the exact technologies they plan to deploy, so that the public can properly assess the project's likely impact on the surrounding communities and natural environment. A request for this information was emailed to GIG Executive Director Kyle Reiling on 2024-01-04, and if there is a response, it will be noted here.**
 
 ### Data Centres
 
