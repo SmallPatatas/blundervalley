@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Your pension, up in smoke?</title>
+		<meta name="description" content="O&#39;Leary has been looking for a way to get his hands on public pensions and sovereign wealth funds for a while now, and both Alberta and Ottawa seem to be on board with the idea">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="BlunderValley.ca">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* My Custom Fonts */
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/lato-regular.woff2') format('woff2'),
+         url('/fonts/lato-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('/fonts/robotoslab-regular.woff2') format('woff2'),
+         url('/fonts/robotoslab-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Defaults */
+:root {
+	--font-family: Lato, arial, -apple-system, system-ui, sans-serif;
+	--font-headings: Roboto Slab, fira sans;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #dad8d8;
+
+	--background-color: #1c1c1c;
+	
+	--text-color: var(--color-gray-90);
+	
+	--text-color-link: #1493fb;
+	--text-color-link-active: #6969f7;
+	--text-color-link-visited: #a6a6f8;
+
+	--heading-color: #ffcc88;
+
+	--color-highlight: #c11;
+	--header: #fff;
+	--header-visited: #eee;
+	--header-hover: #aaf;
+	--header-active: #fff;
+
+
+}
+
+
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #222;
+	
+		--background-color: #f0f0f0;
+
+		/* --text-color is assigned to --color-gray-_ above */
+
+		--text-color-link: #0c73c2;
+		--text-color-link-active: #2d9df1;
+		--text-color-link-visited: #b93e82;
+	
+		--heading-color: #373c4d;
+	
+		--color-highlight: #c11;
+		--header: #fff;
+		--header-visited: #ddd;
+		--header-hover: #aaf;
+		--header-active: #fff;
+	
+		--syntax-tab-size: 2;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img {
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-headings);
+	color: var(--heading-color);
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	background-color: var(--color-highlight);
+	/*border-bottom: 1px solid var(--color-gray-20);*/
+	color: #fff;
+}
+header a[href] {
+	color: var(--header);
+}
+header a[href]:visited {
+	color: var(--header-visited);
+}
+header a[href]:hover {
+	color: var(--header-hover);
+}
+header a[href]:active {
+	color: var(--header-active);
+}
+
+
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+.postlist-image {
+	width: 240px;
+	height: 180px;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">BlunderValley.ca</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+<h1 id="your-pension-up-in-smoke">Your pension, up in smoke?</h1>
+<picture><source type="image/avif" srcset="/img/kgCkNGnR0y-1200.avif 1200w"><source type="image/webp" srcset="/img/kgCkNGnR0y-1200.webp 1200w"><img loading="lazy" decoding="async" src="/img/kgCkNGnR0y-1200.jpeg" alt="burning money" width="1200" height="628"></picture>
+
+<ul class="post-metadata">
+	<li><time datetime="2025-01-09">09 January 2025</time></li>
+
+	<!--
+	<li>Tags: <a href="/tags/finance/" class="post-tag">finance</a>, </li>
+	<li>Tags: <a href="/tags/pension-funds/" class="post-tag">pension funds</a>, </li>
+	<li>Tags: <a href="/tags/ai/" class="post-tag">AI</a>, </li>
+	<li>Tags: <a href="/tags/federal-budget/" class="post-tag">federal budget</a>, </li>
+	<li>Tags: <a href="/tags/aimco/" class="post-tag">AIMCo</a>, </li>
+	<li>Tags: <a href="/tags/ftx/" class="post-tag">FTX</a>, </li>
+	<li>Tags: <a href="/tags/alberta/" class="post-tag">Alberta</a>, </li>
+	<li>Tags: <a href="/tags/danielle-smith/" class="post-tag">Danielle Smith</a>, </li>
+	<li>Tags: <a href="/tags/kevin-o-leary/" class="post-tag">Kevin O&#39;Leary</a></li>
+	-->
+
+</ul>
+
+<h1 id="from-ottawa-to-edmonton-politicians-and-bankers-agree-on-one-thing-funneling-your-retirement-savings-into-risky-ai-gambles">From Ottawa to Edmonton, politicians and bankers agree on one thing: funneling your retirement savings into risky AI gambles.</h1>
+<p>Recently there have been a few changes, and proposed changes, to the rules for how pension funds can invest your retirement savings.</p>
+<p>And whether we're talking about Freeland &amp; Carney in Ottawa, or Smith &amp; Harper in Alberta, one of the goals of those rule changes seems to be to get the managers of Canada's public pension funds (who are supposed to have independence from government interference) to invest your retirement money into AI and data centres.</p>
+<p>There's a lot of hype around AI. But a lot of people are warning that AI is another tech investment bubble. So, why are these politicians so eager to fund these projects with your savings?</p>
+<h2 id="pension-funds-got-burned-by-the-crypto-bubble-of-2021">Pension funds got burned by the crypto bubble of 2021</h2>
+<p>Kevin O'Leary has been trying to find ways to crack open people's nest eggs for a while. In 2022, when he was hauled in front of the US Senate to answer questions about the collapse of cryptocurrency exchange FTX, he said that &quot;the potential of crypto is for it to be indexed with sovereign wealth and pension, where about 70% of the world's wealth is actually managed.&quot; (<a href="https://youtu.be/WwTuSzjycIg" target="_blank">YouTube video</a>, timestamp = 14:15)</p>
+<p>In the two years since then, cryptocurrency prices have rebounded. But assets with wild, unpredictable swings (and in the case of crypto, with no underlying value) don't tend to be very attractive to pension funds looking for stable long-term returns.</p>
+<p>In the midst of the crypto craze of 2021, though, when everybody seemed convinced that the cryptocurrency market was for real, that use cases were going to be found any day now, and widespread adoption was just around the corner, some pension funds <em>did</em> take the bait:</p>
+<ul>
+<li>CDPQ ended up losing <a href="https://www.ft.com/content/67048159-82aa-4e96-bfb3-f1764f632375" target="_blank">$150 million on a fraudulent crypto lending scheme called Celsius</a></li>
+<li>the Ontario Teachers' Pension Plan (OTPP) lost all US$95 million of their investment in FTX</li>
+</ul>
+<h3 id="guess-who-was-hyping-up-ftx-and-crypto">Guess who was hyping up FTX and crypto?</h3>
+<p>It seems noteworthy that the OTPP made their investment just three months after <a href="https://www.prnewswire.com/news-releases/ftx-and-kevin-oleary-announce-long-term-investment-and-spokesperson-relationship-301352189.html" target="_blank">Kevin O'Leary had become a spokesperson</a> for FTX, which means they invested at a time when O'Leary was singing the praises of CEO Sam Bankman-Fried, now a convicted fraudster serving a 25-year prison sentence for stealing billions in customer funds.</p>
+<p>Meanwhile the CEO of Celsius, Alex Mashinsky, is serving 30 years for fraud and market manipulation. CDPQ chief executive Charles Emond, speaking during the first few days after Celsius declared bankruptcy, put it mildly, saying: <a href="https://www.ft.com/content/67048159-82aa-4e96-bfb3-f1764f632375" target="_blank">&quot;in these disruptive technologies, there's ups and downs.”</a></p>
+<h2 id="a-push-in-ottawa-to-change-pension-fund-rules">A push in Ottawa to change pension fund rules</h2>
+<p>In late 2023, Evan Siddall wrote an op-ed in the Globe and Mail: <a href="https://www.theglobeandmail.com/business/commentary/article-federal-government-should-not-be-pushing-pension-funds-to-invest-more/">Federal government should not be pushing pension funds to invest more in Canada</a>. At that time, Siddall was the CEO of Alberta Investment Management Corp. (AIMCo), which manages the pension funds of public sector employees in Alberta including teachers, police, firefighters, and municipal workers. He argued that the federal government shouldn't be using people's retirement savings to compensate for their lack of investment in Canadian economic development, and was worried that the Fall Economic Statement of 2023 was opening the door to doing exactly that.</p>
+<p>But business executives, whose salaries and bonuses are often connected to their companies' stock prices, <a href="https://www.theglobeandmail.com/business/article-pension-funds-investing-campaign/" target="_blank">continued pressuring</a> the federal government to put their thumb on the scale. And by April 2024, then-finance minister Chrystia Freeland had <a href="https://www.theglobeandmail.com/business/article-stephen-poloz-will-lead-push-to-boost-domestic-investment-by-canadian/" target="_blank">hired former Bank of Canada governor Stephen Poloz</a> to find ways to coax pension funds into investing more in Canada.</p>
+<p>By September, Brookfield Asset Management was making their pitch to Chrystia Freeland for a <a href="https://financialpost.com/fp-finance/brookfield-ottawa-major-pensions-being-discussed" target="_blank">$50 billion investment fund</a> that would be made up of money from pension funds and the federal government.</p>
+<p>But this didn't go over very well, partly because the pension funds didn't like the idea, but also because Brookfield's chair is Mark Carney, another former BoC governor who was <em>also working as an advisor</em> to the federal government.</p>
+<p>Nevertheless, Poloz continued to work on crafting policy. One proposal was a program where the government would contribute up to $15 billion toward a $45 billion AI data centre investment fund (where pension funds could contribute up to $30 billion, and the feds would partially match the investment, adding $1 of public money for every $2 of pension money invested).</p>
+<p>Interestingly, the original policy proposal included a requirement that data centres must be powered by renewables - but by the time the 2024 Fall Economic Statement was released in December, this requirement <a href="https://www.theglobeandmail.com/business/article-freeland-confirms-ottawa-to-develop-15-billion-program-to-help-pension/" target="_blank">had vanished</a>.</p>
+<h2 id="a-pension-fund-takeover-in-edmonton">A pension fund takeover in Edmonton</h2>
+<p>Meanwhile in November, Premier Danielle Smith's government suddenly <a href="https://nationalpost.com/news/alberta-government-wants-stephen-harper-aimco-chairman/wcm/c317ae57-7969-43fa-9427-acf56b540f48" target="_blank">fired</a> the entire AIMCo board along with 4 top executives, including CEO Evan Siddall, who had written that op-ed criticizing the federal government's attempt to influence pension funds' investments.</p>
+<p>Less than two weeks later, Stephen Harper was announced as the new chair of AIMCo's board. This appointment immediately led to widespread worry (including from senior fellows at the staunchly conservative <a href="https://www.theglobeandmail.com/business/commentary/article-albertas-aimco-shakeup-could-mean-government-control-of-pension-fund/" target="_blank">Fraser Institute</a>) that the Alberta government was seeking to politicize AIMCo, which manages $169 billion in assets, most of which is workers' retirement savings.</p>
+<p>And as evidence that politicization was the goal, Premier Smith had reportedly been hoping to appoint Harper to the role &quot;<a href="https://nationalpost.com/news/alberta-government-wants-stephen-harper-aimco-chairman/wcm/c317ae57-7969-43fa-9427-acf56b540f48" target="_blank">for some time</a>&quot;, which makes it pretty clear that AIMCo's board was fired not due to mismanagement, but as a way for the province to seize control over the fund's operations.</p>
+<h2 id="kevin-o-leary-shoots-his-shot">Kevin O'Leary shoots his shot</h2>
+<p>Enter Kevin O'Leary, with the perfect plan to snatch up Canadians' pension money not only from the proposed federal AI data centre fund, but also from a newly politicized AIMCo, eager to invest in the expansion of fossil fuel infrastructure.</p>
+<p>Premier Smith was <a href="https://mdgreenview.ab.ca/wp-content/uploads/2024/12/GIG-O-Leary-Release_2024.12.09-FINAL.pdf" target="_blank">immediately on board</a> with O'Leary's proposal, declaring, &quot;this is fantastic news for Alberta. Our efforts to attract investment, grow our technology and innovation sector, and leverage our natural and human resources are being noticed. I’m excited to watch this project unfold in the months and years to come.&quot;</p>
+<p>But even putting aside the issues around pension funds, is this really &quot;fantastic news for Alberta&quot;?</p>
+<h2 id="is-ai-a-risky-investment">Is AI a risky investment?</h2>
+<p>The most truthful answer is, &quot;it depends&quot;. There are definitely useful applications for some of the technologies that fall under the umbrella of things we lump together as 'AI'. Machine learning, for example, has been quietly useful for decades, and is comparatively inexpensive to run.</p>
+<p>On the other hand, there's Generative AI (e.g. ChatGPT, Gemini, Copilot, Midjourney, Stable Diffusion). Companies that make GenAI systems are losing a massive amount of money every year; one of them, OpenAI, <a href="https://www.cnbc.com/2024/09/27/openai-sees-5-billion-loss-this-year-on-3point7-billion-in-revenue.html" target="_blank">lost $5 billion in 2024</a>. These systems require so much hardware and resources to run that they <a href="https://www.theregister.com/2025/01/06/altman_gpt_profits/" target="_blank">aren't able to charge their customers enough</a> to cover their costs.</p>
+<p>&quot;Ah,&quot; the AI companies say, &quot;but soon these systems will be far more useful, and won't go telling users to <a href="https://www.vox.com/24141648/ai-ebook-grift-mushroom-foraging-mycological-society" target="_blank">eat deadly mushrooms</a>, drink <a href="https://gizmodo.com/paknsave-ai-savey-recipe-bot-chlorine-gas-1850725057" target="_blank">&quot;aromatic water&quot; (aka mustard gas, a chemical weapon)</a> or put <a href="https://www.bbc.com/news/articles/cd11gzejgz4o" target="_blank">glue on pizza</a> to keep the toppings from sliding off. We just need more money to build bigger data centres, and ten times as much data to train our models on!&quot;</p>
+<p>The problem with that: they've <a href="https://theweek.com/tech/ai-running-out-of-data" target="_blank">already scraped</a> pretty much the entirety of the internet. Which means that no matter how much more money gets thrown at these Generative AI systems, they're unlikely to get much better.</p>
+<p>More and more people have been sounding the alarm, warning investors that the AI market is a speculative bubble. Here's a few of the headlines:</p>
+<ul>
+<li><a href="https://www.bnnbloomberg.ca/business/technology/2024/07/18/goldmans-top-stock-analyst-is-waiting-for-ai-bubble-to-burst/" target="_blank">Goldman’s Top Stock Analyst Is Waiting for AI Bubble to Burst</a> (Bloomberg)</li>
+<li><a href="https://www.usatoday.com/story/money/investing/2024/12/23/artificial-intelligence-bubble-burst-2025/77081750007/" target="_blank">Will the artificial intelligence bubble burst in 2025? Here are 4 reasons it might.</a> (USA Today)</li>
+<li><a href="https://www.barrons.com/amp/articles/broadcom-stock-price-ai-chips-d4866d4b" target="_blank">Broadcom Stock Drops as Chip Stocks Slide. Is the AI Trade Ending?</a> (Barron's)</li>
+<li><a href="https://www.theregister.com/2025/01/06/altman_gpt_profits/" target="_blank">Even at $200/mo, Altman admits ChatGPT Pro struggles to turn a profit</a> (The Register)</li>
+<li><a href="https://www.techtarget.com/searchenterpriseai/news/366599640/Enterprises-struggle-to-find-business-value-with-GenAI" target="_blank">Enterprises struggle to find business value with GenAI</a> (TechTarget)</li>
+<li><a href="https://www.cnbc.com/2025/01/07/howard-marks-sees-cautionary-signs-of-bubble-says-investors-shouldnt-ignore-todays-high-valuation.html" target="_blank">Howard Marks sees cautionary signs of a bubble</a> (CNBC)</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>To sum up: AI data centres are an incredibly risky investment at this stage. Be wary of any politician or entrepreneur trying to steer your retirement money (or our public funds) into these schemes. Over the last quarter-century, we've seen enough tech hype cycles (dot-com, crypto, NFTs, the metaverse, VR, just to name a few) to know how this story ends. Which raises a question: are these politicians and business leaders just suckers falling for the hype of the day? Or are they hoping to prop up the market with our retirement savings, so their pals can cash out before the bubble bursts?</p>
+
+
+<ul class="post-metadata">
+
+	<!-- 
+	<li><time datetime="2025-01-09">09 January 2025</time></li> 
+	-->
+	<li><a href="/tags/finance/" class="post-tag">finance</a>, </li>
+	<li><a href="/tags/pension-funds/" class="post-tag">pension funds</a>, </li>
+	<li><a href="/tags/ai/" class="post-tag">AI</a>, </li>
+	<li><a href="/tags/federal-budget/" class="post-tag">federal budget</a>, </li>
+	<li><a href="/tags/aimco/" class="post-tag">AIMCo</a>, </li>
+	<li><a href="/tags/ftx/" class="post-tag">FTX</a>, </li>
+	<li><a href="/tags/alberta/" class="post-tag">Alberta</a>, </li>
+	<li><a href="/tags/danielle-smith/" class="post-tag">Danielle Smith</a>, </li>
+	<li><a href="/tags/kevin-o-leary/" class="post-tag">Kevin O&#39;Leary</a></li>
+</ul>
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/water-consumption/">The Water Consumption Question</a></li>
+</ul>
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+
+    <hr>
+    <p>©2024</p>
+		</footer>
+
+		<!-- This page `/blog/pension-funds/` was built on 2025-01-09T23:58:03.115Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
