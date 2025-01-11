@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <title>BlunderValley.ca</title>
+  <title>Blunder Valley</title>
   <subtitle>Something doesn&#39;t add up about the Wonder Valley data centre project.</subtitle>
   <link href="https://blundervalley.ca/feed/feed.xml" rel="self" />
   <link href="https://blundervalley.ca/" />
