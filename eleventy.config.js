@@ -63,7 +63,7 @@ export default async function(eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "BlunderValley.ca",
+			title: "Blunder Valley",
 			subtitle: "Something doesn't add up about the Wonder Valley data centre project.",
 			base: "https://blundervalley.ca/",
 			author: {

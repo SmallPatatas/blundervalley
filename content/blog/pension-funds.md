@@ -1,6 +1,6 @@
 ---
 title: "Your pension, up in smoke?"
-description: "O'Leary has been looking for a way to get his hands on public pensions and sovereign wealth funds for a while now, and both Alberta and Ottawa seem to be on board with the idea"
+description: "Kevin O'Leary has been looking for a way to get his hands on public pensions and sovereign wealth funds for a while now, and both Alberta and Ottawa seem to be on board with the idea"
 date: 2025-01-09
 tags: ["finance", "pension funds", "AI", "federal budget", "AIMCo", "FTX", "Alberta", "Danielle Smith", "Kevin O'Leary"]
 image: /img/burning-money.jpg

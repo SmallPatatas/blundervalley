@@ -20,7 +20,9 @@ image_alt: "smoky and peace rivers crop"
 * Exploratory work has only just begun; water license amount doesn't make sense
 * Video on Wonder Valley website is full of weird stuff like people walking backwards, a cafeteria patron morphing into a different person, etc - does that seem like a serious $70B project?
 * still unclear if the $70B is USD or CAD; both countries' news media reporting the same figure
-* feds want to do buildout with renewables (?)
+* O'Leary seems to just be sucking up to Trump
+* Currently also talking about buying TikTok
+* O'Leary sees AI as a way to persecute young people
 * gas power is currently more expensive than renewables
 * 
 * O'Leary could be just trying to get a better deal from ND or WV
