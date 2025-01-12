@@ -5,6 +5,7 @@ date: 2024-12-26
 tags: ["transparency", "water use", "noise", "carbon emissions", "energy", "finances"]
 image: "/img/black-box-2.jpg"
 image_alt: "a black box"
+filename: "so-many-unanswered-questions/"
 ---
 
 In a <a href="https://www.cbc.ca/news/canada/edmonton/why-celebrity-investor-kevin-o-leary-is-proposing-a-massive-ai-data-centre-in-northern-alberta-1.7407506" target="_blank">statement to the media</a> about the Wonder Valley project, Kevin O'Leary said that "people should be very skeptical and they should just watch, because we'll be very transparent as we develop this." 

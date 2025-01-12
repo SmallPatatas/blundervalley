@@ -6,6 +6,7 @@ tags: ["finance", "other", "drought", "wildfires"]
 draft: true
 image: /img/smoky-and-peace-rivers-crop.jpg
 image_alt: "smoky and peace rivers crop"
+filename: "is-this-project-even-real/"
 ---
 
 ## Key points

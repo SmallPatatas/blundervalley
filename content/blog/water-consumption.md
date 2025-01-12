@@ -6,6 +6,7 @@ tags: ["water use", "environment", "carbon capture and storage", "gas plants"]
 draft: false
 image: /img/smoky-and-peace-rivers-crop.jpg
 image_alt: "Smoky & Peace Rivers, Alberta, Canada"
+filename: "water-consumption"
 ---
 
 ## How much water will this project consume, exactly?

@@ -6,8 +6,13 @@
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
 		<meta name="Keywords" content="Wonder Valley, Kevin O'Leary, AI, Alberta, Canada, Artificial Intelligence">
+		<meta name="Keywords" content="{{tags or metadata.tags }}" />
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 		<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+		<meta property="og.title" content="{{ title or metadata.title }}" />
+		<meta property="og.image" content="{{ image or metadata.image }}" />
+		<meta property="og.type" content="{{ type or metadata.type }}" />
+		<meta property="og.url" content="https://blundervalley.ca/{{path or metadata.path}}{{filename or metadata.filename}}" />
 
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
 		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}

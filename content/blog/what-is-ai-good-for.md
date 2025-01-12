@@ -6,6 +6,7 @@ tags: ["surveillance", "employers", "workers", "disinformation", "abuse"]
 draft: true
 image: /img/smoky-and-peace-rivers-crop.jpg
 image_alt: "smoky and peace rivers crop"
+filename: "what-is-ai-good-for/"
 ---
 
 ## Surveillance

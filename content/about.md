@@ -3,6 +3,8 @@ const eleventyNavigation = {
 	key: "About",
 	order: 3
 };
+const type = "website"
+const filename = "about/"
 ---
 # About
 

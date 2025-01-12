@@ -5,6 +5,7 @@ date: 2025-01-09
 tags: ["finance", "pension funds", "AI", "federal budget", "AIMCo", "FTX", "Alberta", "Danielle Smith", "Kevin O'Leary"]
 image: /img/burning-money.jpg
 image_alt: "burning money"
+filename: "pension-funds/"
 ---
 
 # From Ottawa to Edmonton, politicians and bankers agree on one thing: funneling your retirement savings into risky AI gambles.

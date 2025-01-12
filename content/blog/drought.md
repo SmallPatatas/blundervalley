@@ -6,6 +6,7 @@ tags: ["water", "environment", "drought", "wildfires"]
 draft: true
 image: /img/smoky-and-peace-rivers-crop.jpg
 image_alt: "Smoky & Peace Rivers, Alberta, Canada"
+filename: "drought/"
 ---
 
 ## How much water will this project consume, exactly?
