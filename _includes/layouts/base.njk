@@ -10,7 +10,7 @@
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 		<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
 		<meta property="og.title" content="{{ title or metadata.title }}" />
-		<meta property="og.image" content="{{ image or metadata.image }}" />
+		<meta property="og.image" content="https://blundervalley.ca{{ image or metadata.image }}" />
 		<meta property="og.type" content="{{ type or metadata.type }}" />
 		<meta property="og.url" content="https://blundervalley.ca/{{path or metadata.path}}{{filename or metadata.filename}}" />
 
