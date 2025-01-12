@@ -26,6 +26,8 @@ But as of December 26, 2024, the public has virtually no answers to the huge num
 * Will this project be seeking investment capital from any pension funds or sovereign wealth funds?
 * how much public money will be spent to provide needed infrastructure for this project (e.g. road upgrades, new water treatment facilities, etc)?
 
+(see also <a href="https://blundervalley.ca/blog/pension-funds/">this post</a> about how both the federal Liberals **and** Alberta's UCP seem to like this AI data centre proposal)
+
 ## Jobs
 
 Most jobs associated with data centre projects are short term for the construction phase. 

@@ -8,21 +8,37 @@ image: /img/smoky-and-peace-rivers-crop.jpg
 image_alt: "smoky and peace rivers crop"
 ---
 
-## Key points
+## Surveillance
 
-* facial recognition
+* facial recognition (Kevin O'Leary likes this use case!)
 * license plate tracking
+* predictive policing
+* military strike targeting (passing the buck on responsibility)
+
+## Being a creep
+
 * non-consensual pornography
-* deepfakes
+* deepfakes, impersonation scams
+
+## Lying, at scale
+
+* disinformation at scale, narrative control
 * spam
 * AI 'slop' content
 * hoaxes
+
+## Screwing over working people
+
 * bosses get to threaten workers with replacement
 * stealing content from artists, writers, etc
 * landlord collusion
 * charging more for groceries
+* denying insurance?
+
+## Automating tasks
+
 * coding
 * malware
 * medical diagnosis?
+* making doctors distrust themeselves
 * reducing # of doctors?
-* denying insurance/claims?
