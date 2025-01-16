@@ -5,11 +5,66 @@
   <subtitle>Something doesn&#39;t add up about the Wonder Valley data centre project.</subtitle>
   <link href="https://blundervalley.ca/feed/feed.xml" rel="self" />
   <link href="https://blundervalley.ca/" />
-  <updated>2025-01-09T00:00:00Z</updated>
+  <updated>2025-01-16T00:00:00Z</updated>
   <id>https://blundervalley.ca/</id>
   <author>
     <name>Mr. Roboto</name>
   </author>
+  <entry>
+    <title>What is AI good for?</title>
+    <link href="https://blundervalley.ca/blog/what-is-ai-good-for/" />
+    <updated>2025-01-16T00:00:00Z</updated>
+    <id>https://blundervalley.ca/blog/what-is-ai-good-for/</id>
+    <content type="html">&lt;p&gt;&lt;i&gt;image: AI generated fake image of the Hollywood sign on fire. Despite containing an extra letter &#39;D&#39;, this and other hoax images were shared widely on social media during the recent fires in Los Angeles, demonstrating how easy it has become to spread mis- and disinformation with the help of AI tools.&lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&quot;we-all-know-that-ai-systems-use-a-lot-of-energy-and-resources-but-what-for-what-are-these-systems-good-at-exactly&quot;&gt;We all know that AI systems use a lot of energy and resources. But what for? What are these systems good at, exactly?&lt;/h2&gt;
+&lt;p&gt;To answer that, let&#39;s a look at how AI is being used today.&lt;/p&gt;
+&lt;p&gt;And as a bonus, we&#39;ll also take a look at why Kevin O&#39;Leary likes AI.&lt;/p&gt;
+&lt;h2 id=&quot;automating-mass-surveillance&quot;&gt;Automating mass surveillance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;facial recognition:&lt;/strong&gt; even though these systems are far from foolproof, police have &lt;a href=&quot;https://www.washingtonpost.com/business/interactive/2025/police-artificial-intelligence-facial-recognition/&quot; target=&quot;_blank&quot;&gt;frequently arrested and/or charged innocent people&lt;/a&gt; based on false positives from AI systems;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;license plate tracking:&lt;/strong&gt; these automated systems are using AI computer vision to &lt;a href=&quot;https://www.404media.co/lawsuit-argues-warrantless-use-of-flock-surveillance-cameras-is-unconstitutional/&quot; target=&quot;_blank&quot;&gt;track people&#39;s movement and location&lt;/a&gt;;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;data collection &amp;amp; analysis by corporations:&lt;/strong&gt; companies like Meta and Google leverage their AI systems to analyze mountains of data collected on everyday people, in order to sell personalized advertising, and also sell data and insights to other third parties such as governments and insurance companies;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;military targeting:&lt;/strong&gt; AI systems have resulted in &lt;a href=&quot;https://www.972mag.com/mass-assassination-factory-israel-calculated-bombing-gaza/&quot; target=&quot;_blank&quot;&gt;many more civilian deaths&lt;/a&gt; by both generating targets much faster, and also allowing military personnel to pass off responsibility for target selection onto an algorithm;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;censorship:&lt;/strong&gt; governments are using AI systems to automate the process of &lt;a href=&quot;https://www.technologyreview.com/2023/10/04/1080801/generative-ai-boosting-disinformation-and-propaganda-freedom-house/&quot; target=&quot;_blank&quot;&gt;censoring the internet&lt;/a&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;being-a-creep-and-worse&quot;&gt;Being a creep, and worse&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;non-consensual porn:&lt;/strong&gt; AI &#39;deepfakes&#39; and &#39;nudify&#39; apps are being used without consent to harrass, degrade, blackmail, and humiliate people by &lt;a href=&quot;https://themarkup.org/news/2024/03/11/with-ai-anyone-can-be-a-victim-of-nonconsensual-porn-can-laws-keep-up&quot; target=&quot;_blank&quot;&gt;generating pornographic images and video&lt;/a&gt; of a targeted individual;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI-generated Child Sexual Abuse Material:&lt;/strong&gt; offenders are &lt;a href=&quot;https://www.wired.com/story/generative-ai-images-child-sexual-abuse/&quot; target=&quot;_blank&quot;&gt;generating CSAM&lt;/a&gt; using existing images of abuse;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;lying-at-scale&quot;&gt;Lying, at scale&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;disinformation and narrative control:&lt;/strong&gt; malicious actors are using AI to automate the process of &lt;a href=&quot;https://theconversation.com/algorithms-are-pushing-ai-generated-falsehoods-at-an-alarming-rate-how-do-we-stop-this-224626&quot; target=&quot;_blank&quot;&gt;disseminating disinformation and shaping public opinion&lt;/a&gt;;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;hoaxes:&lt;/strong&gt; generative AI is being used to create &lt;a href=&quot;https://www.cbc.ca/news/science/artificial-intelligence-misinformation-google-1.7217275&quot; target=&quot;_blank&quot;&gt;fake photorealistic images and video&lt;/a&gt; simply to try to fool people;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;unreliable summaries:&lt;/strong&gt; Apple&#39;s AI systems have been &lt;a href=&quot;https://bsky.app/profile/geoffreyfowler.bsky.social/post/3lfsep7n4322l&quot; target=&quot;_blank&quot;&gt;incorrectly summarizing news articles&lt;/a&gt; for their users, as well as &lt;a href=&quot;https://pivot-to-ai.com/2025/01/09/apples-ai-helpfully-rewords-scam-messages-to-make-them-look-legitimate/&quot; target=&quot;_blank&quot;&gt;rephrasing scam text messages&lt;/a&gt; in a way that makes them seem legitimate;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;screwing-over-working-people&quot;&gt;Screwing over working people&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;making housing more expensive:&lt;/strong&gt; algorithmic pricing software is &lt;a href=&quot;https://edmonton.citynews.ca/2024/10/01/artificial-intelligence-rent-increase-big-story-podcast/&quot; target=&quot;_blank&quot;&gt;automating collusion among landlords&lt;/a&gt;, driving rental prices higher;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;making groceries more expensive:&lt;/strong&gt; AI systems are being used to &lt;a href=&quot;https://www.oracle.com/retail/grocery/grocery-ai/#shopping&quot; target=&quot;_blank&quot;&gt;&amp;quot;recommend prices for items to maximize profit&amp;quot;&lt;/a&gt; - and if the prices get too high, then &lt;a href=&quot;https://www.oracle.com/retail/grocery/grocery-ai/#retail&quot; target=&quot;_blank&quot;&gt;&amp;quot;AI-based computer vision applications can reduce theft by identifying shoppers who pocket items from shelves&amp;quot;&lt;/a&gt;;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cutting people off from benefits:&lt;/strong&gt; discriminatory algorithmic systems have been used to &lt;a href=&quot;https://www.vice.com/en/article/how-a-discriminatory-algorithm-wrongly-accused-thousands-of-families-of-fraud/&quot; target=&quot;_blank&quot;&gt;cut benefits from honest recipients&lt;/a&gt; after the system labels them as cheaters;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;undermining workers:&lt;/strong&gt; AI companies have been &lt;a href=&quot;https://www.wired.com/story/new-documents-unredacted-meta-copyright-ai-lawsuit/&quot; target=&quot;_blank&quot;&gt;stealing real people&#39;s work&lt;/a&gt; to train their models, while simultaneously marketing AI as a way to avoid needing to hire artists, writers, musicians, etc;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;putting-people-in-immediate-physical-danger&quot;&gt;Putting people in immediate physical danger&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ignoring traffic laws:&lt;/strong&gt; recently someone discovered that at least one brand of robotaxis had been &lt;a href=&quot;https://www.washingtonpost.com/technology/2024/12/30/waymo-pedestrians-robotaxi-crosswalks/&quot;&gt;intentionally programmed to ignore pedestrians at crosswalks&lt;/a&gt;, putting people&#39;s lives at risk;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;driving into danger:&lt;/strong&gt; just two weeks ago, a &#39;self-driving car&#39; suddenly drove itself &lt;a href=&quot;https://jalopnik.com/tech-founders-tesla-full-self-drove-onto-train-tracks-1851733017&quot; target=&quot;_blank&quot;&gt;onto train tracks while a train was coming&lt;/a&gt;;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI &amp;quot;therapists&amp;quot;:&lt;/strong&gt; chatbots have been &lt;a href=&quot;https://futurism.com/ai-chatbots-teens-self-harm&quot; target=&quot;_blank&quot;&gt;encouraging teenage children to self-harm&lt;/a&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;automating-tasks&quot;&gt;Automating tasks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;coding:&lt;/strong&gt; AI is frequently used by coders to write basic or repetitive code;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;coding:&lt;/strong&gt; AI is also being used to generate &lt;a href=&quot;https://threatresearch.ext.hp.com/wp-content/uploads/2024/09/HP_Wolf_Security_Threat_Insights_Report_September_2024.pdf&quot; target=&quot;_blank&quot;&gt;malicious code&lt;/a&gt; (direct link to pdf) e.g. computer viruses, and other malware;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;medical diagnosis:&lt;/strong&gt; AI systems, even though they are prone to errors like any other system, nevertheless tend to make doctors &lt;a href=&quot;https://www.brainfacts.org/neuroscience-in-society/tech-and-the-brain/2024/why-ai-can-push-you-to-make-the-wrong-decision-at-work-090324&quot; target=&quot;_blank&quot;&gt;second-guess their own expertise&lt;/a&gt;, which often leads to worse patient outcomes;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;copy editing:&lt;/strong&gt; the publisher of an academic journal used AI to &#39;copy edit&#39; already proofed articles, and it was so bad that almost the entire editorial board &lt;a href=&quot;https://retractionwatch.com/2024/12/27/evolution-journal-editors-resign-en-masse-to-protest-elsevier-changes/&quot; target=&quot;_blank&quot;&gt;quit en masse&lt;/a&gt;;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;marketing:&lt;/strong&gt; AI is now &lt;a href=&quot;https://futurism.com/the-byte/startup-spams-reddit-slop&quot; target=&quot;_blank&quot;&gt;flooding social media forums&lt;/a&gt; with computer-generated posts and replies shilling products;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;what-does-kevin-o-leary-see-in-ai&quot;&gt;What does Kevin O&#39;Leary see in AI?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Kevin O&#39;Leary has a sadistic fantasy of using AI to &lt;a href=&quot;https://thehill.com/opinion/technology/4686937-kevin-olearys-dystopian-fantasy-of-ruining-the-lives-of-campus-protesters/&quot; target=&quot;_blank&quot;&gt;ruin the lives of campus protestors forever&lt;/a&gt;. Seriously, take a look at that link. Dude has serious problems.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Your pension, up in smoke?</title>
     <link href="https://blundervalley.ca/blog/pension-funds/" />

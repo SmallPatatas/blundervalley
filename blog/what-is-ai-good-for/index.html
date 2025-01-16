@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>What is AI good for?</title>
+		<meta name="description" content="We all know that AI systems use a lot of energy and resources. But what for? What are these systems good at, exactly? To answer that, let&#39;s a look at how AI is being used today. And as a bonus, we&#39;ll also take a look at why Kevin O&#39;Leary likes AI.">
+		<meta name="Keywords" content="Wonder Valley, Kevin O'Leary, AI, Alberta, Canada, Artificial Intelligence">
+		<meta name="Keywords" content="posts,Kevin O&#39;Leary,AI,surveillance,employers,workers,disinformation,abuse,grocery prices,housing prices">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="BlunderValley.ca">
+		<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+		<meta property="og.title" content="What is AI good for?">
+		<meta property="og.image" content="https://blundervalley.ca/img/hollywood-sign-fire-crop.jpg">
+		<meta property="og.type" content="article">
+		<meta property="og.url" content="https://blundervalley.ca/blog/what-is-ai-good-for/">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* My Custom Fonts */
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/lato-regular.woff2') format('woff2'),
+         url('/fonts/lato-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('/fonts/robotoslab-regular.woff2') format('woff2'),
+         url('/fonts/robotoslab-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Defaults */
+:root {
+	--font-family: Lato, arial, -apple-system, system-ui, sans-serif;
+	--font-headings: Roboto Slab, fira sans;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #dad8d8;
+
+	--background-color: #1c1c1c;
+	
+	--text-color: var(--color-gray-90);
+	
+	--text-color-link: #1493fb;
+	--text-color-link-active: #6969f7;
+	--text-color-link-visited: #a6a6f8;
+
+	--heading-color: #ffcc88;
+
+	--color-highlight: #c11;
+	--header: #fff;
+	--header-visited: #eee;
+	--header-hover: #aaf;
+	--header-active: #fff;
+
+
+}
+
+
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #222;
+	
+		--background-color: #f0f0f0;
+
+		/* --text-color is assigned to --color-gray-_ above */
+
+		--text-color-link: #0c73c2;
+		--text-color-link-active: #2d9df1;
+		--text-color-link-visited: #b93e82;
+	
+		--heading-color: #373c4d;
+	
+		--color-highlight: #c11;
+		--header: #fff;
+		--header-visited: #ddd;
+		--header-hover: #aaf;
+		--header-active: #fff;
+	
+		--syntax-tab-size: 2;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img {
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-headings);
+	color: var(--heading-color);
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	background-color: var(--color-highlight);
+	/*border-bottom: 1px solid var(--color-gray-20);*/
+	color: #fff;
+}
+header a[href] {
+	color: var(--header);
+}
+header a[href]:visited {
+	color: var(--header-visited);
+}
+header a[href]:hover {
+	color: var(--header-hover);
+}
+header a[href]:active {
+	color: var(--header-active);
+}
+
+
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+.postlist-image {
+	width: 240px;
+	height: 180px;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">BlunderValley.ca</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+<h1 id="what-is-ai-good-for">What is AI good for?</h1>
+<picture><source type="image/avif" srcset="/img/ElbNH7W2ok-680.avif 680w"><source type="image/webp" srcset="/img/ElbNH7W2ok-680.webp 680w"><img loading="lazy" decoding="async" src="/img/ElbNH7W2ok-680.jpeg" alt="AI generated fake image of the Hollywood sign on fire. During the recent fires in Los Angeles, this fake image was being shared on social media as if it was true." width="680" height="330"></picture>
+
+<ul class="post-metadata">
+	<li><time datetime="2025-01-16">16 January 2025</time></li>
+
+	<!--
+	<li>Tags: <a href="/tags/kevin-o-leary/" class="post-tag">Kevin O&#39;Leary</a>, </li>
+	<li>Tags: <a href="/tags/ai/" class="post-tag">AI</a>, </li>
+	<li>Tags: <a href="/tags/surveillance/" class="post-tag">surveillance</a>, </li>
+	<li>Tags: <a href="/tags/employers/" class="post-tag">employers</a>, </li>
+	<li>Tags: <a href="/tags/workers/" class="post-tag">workers</a>, </li>
+	<li>Tags: <a href="/tags/disinformation/" class="post-tag">disinformation</a>, </li>
+	<li>Tags: <a href="/tags/abuse/" class="post-tag">abuse</a>, </li>
+	<li>Tags: <a href="/tags/grocery-prices/" class="post-tag">grocery prices</a>, </li>
+	<li>Tags: <a href="/tags/housing-prices/" class="post-tag">housing prices</a></li>
+	-->
+
+</ul>
+
+<p><i>image: AI generated fake image of the Hollywood sign on fire. Despite containing an extra letter 'D', this and other hoax images were shared widely on social media during the recent fires in Los Angeles, demonstrating how easy it has become to spread mis- and disinformation with the help of AI tools.</i></p>
+<h2 id="we-all-know-that-ai-systems-use-a-lot-of-energy-and-resources-but-what-for-what-are-these-systems-good-at-exactly">We all know that AI systems use a lot of energy and resources. But what for? What are these systems good at, exactly?</h2>
+<p>To answer that, let's a look at how AI is being used today.</p>
+<p>And as a bonus, we'll also take a look at why Kevin O'Leary likes AI.</p>
+<h2 id="automating-mass-surveillance">Automating mass surveillance</h2>
+<ul>
+<li><strong>facial recognition:</strong> even though these systems are far from foolproof, police have <a href="https://www.washingtonpost.com/business/interactive/2025/police-artificial-intelligence-facial-recognition/" target="_blank">frequently arrested and/or charged innocent people</a> based on false positives from AI systems;<br><br></li>
+<li><strong>license plate tracking:</strong> these automated systems are using AI computer vision to <a href="https://www.404media.co/lawsuit-argues-warrantless-use-of-flock-surveillance-cameras-is-unconstitutional/" target="_blank">track people's movement and location</a>;<br><br></li>
+<li><strong>data collection &amp; analysis by corporations:</strong> companies like Meta and Google leverage their AI systems to analyze mountains of data collected on everyday people, in order to sell personalized advertising, and also sell data and insights to other third parties such as governments and insurance companies;<br><br></li>
+<li><strong>military targeting:</strong> AI systems have resulted in <a href="https://www.972mag.com/mass-assassination-factory-israel-calculated-bombing-gaza/" target="_blank">many more civilian deaths</a> by both generating targets much faster, and also allowing military personnel to pass off responsibility for target selection onto an algorithm;<br><br></li>
+<li><strong>censorship:</strong> governments are using AI systems to automate the process of <a href="https://www.technologyreview.com/2023/10/04/1080801/generative-ai-boosting-disinformation-and-propaganda-freedom-house/" target="_blank">censoring the internet</a>;</li>
+</ul>
+<h2 id="being-a-creep-and-worse">Being a creep, and worse</h2>
+<ul>
+<li><strong>non-consensual porn:</strong> AI 'deepfakes' and 'nudify' apps are being used without consent to harrass, degrade, blackmail, and humiliate people by <a href="https://themarkup.org/news/2024/03/11/with-ai-anyone-can-be-a-victim-of-nonconsensual-porn-can-laws-keep-up" target="_blank">generating pornographic images and video</a> of a targeted individual;<br><br></li>
+<li><strong>AI-generated Child Sexual Abuse Material:</strong> offenders are <a href="https://www.wired.com/story/generative-ai-images-child-sexual-abuse/" target="_blank">generating CSAM</a> using existing images of abuse;</li>
+</ul>
+<h2 id="lying-at-scale">Lying, at scale</h2>
+<ul>
+<li><strong>disinformation and narrative control:</strong> malicious actors are using AI to automate the process of <a href="https://theconversation.com/algorithms-are-pushing-ai-generated-falsehoods-at-an-alarming-rate-how-do-we-stop-this-224626" target="_blank">disseminating disinformation and shaping public opinion</a>;<br><br></li>
+<li><strong>hoaxes:</strong> generative AI is being used to create <a href="https://www.cbc.ca/news/science/artificial-intelligence-misinformation-google-1.7217275" target="_blank">fake photorealistic images and video</a> simply to try to fool people;<br><br></li>
+<li><strong>unreliable summaries:</strong> Apple's AI systems have been <a href="https://bsky.app/profile/geoffreyfowler.bsky.social/post/3lfsep7n4322l" target="_blank">incorrectly summarizing news articles</a> for their users, as well as <a href="https://pivot-to-ai.com/2025/01/09/apples-ai-helpfully-rewords-scam-messages-to-make-them-look-legitimate/" target="_blank">rephrasing scam text messages</a> in a way that makes them seem legitimate;</li>
+</ul>
+<h2 id="screwing-over-working-people">Screwing over working people</h2>
+<ul>
+<li><strong>making housing more expensive:</strong> algorithmic pricing software is <a href="https://edmonton.citynews.ca/2024/10/01/artificial-intelligence-rent-increase-big-story-podcast/" target="_blank">automating collusion among landlords</a>, driving rental prices higher;<br><br></li>
+<li><strong>making groceries more expensive:</strong> AI systems are being used to <a href="https://www.oracle.com/retail/grocery/grocery-ai/#shopping" target="_blank">&quot;recommend prices for items to maximize profit&quot;</a> - and if the prices get too high, then <a href="https://www.oracle.com/retail/grocery/grocery-ai/#retail" target="_blank">&quot;AI-based computer vision applications can reduce theft by identifying shoppers who pocket items from shelves&quot;</a>;<br><br></li>
+<li><strong>cutting people off from benefits:</strong> discriminatory algorithmic systems have been used to <a href="https://www.vice.com/en/article/how-a-discriminatory-algorithm-wrongly-accused-thousands-of-families-of-fraud/" target="_blank">cut benefits from honest recipients</a> after the system labels them as cheaters;<br><br></li>
+<li><strong>undermining workers:</strong> AI companies have been <a href="https://www.wired.com/story/new-documents-unredacted-meta-copyright-ai-lawsuit/" target="_blank">stealing real people's work</a> to train their models, while simultaneously marketing AI as a way to avoid needing to hire artists, writers, musicians, etc;</li>
+</ul>
+<h2 id="putting-people-in-immediate-physical-danger">Putting people in immediate physical danger</h2>
+<ul>
+<li><strong>ignoring traffic laws:</strong> recently someone discovered that at least one brand of robotaxis had been <a href="https://www.washingtonpost.com/technology/2024/12/30/waymo-pedestrians-robotaxi-crosswalks/">intentionally programmed to ignore pedestrians at crosswalks</a>, putting people's lives at risk;<br><br></li>
+<li><strong>driving into danger:</strong> just two weeks ago, a 'self-driving car' suddenly drove itself <a href="https://jalopnik.com/tech-founders-tesla-full-self-drove-onto-train-tracks-1851733017" target="_blank">onto train tracks while a train was coming</a>;<br><br></li>
+<li><strong>AI &quot;therapists&quot;:</strong> chatbots have been <a href="https://futurism.com/ai-chatbots-teens-self-harm" target="_blank">encouraging teenage children to self-harm</a>;</li>
+</ul>
+<h2 id="automating-tasks">Automating tasks</h2>
+<ul>
+<li><strong>coding:</strong> AI is frequently used by coders to write basic or repetitive code;<br><br></li>
+<li><strong>coding:</strong> AI is also being used to generate <a href="https://threatresearch.ext.hp.com/wp-content/uploads/2024/09/HP_Wolf_Security_Threat_Insights_Report_September_2024.pdf" target="_blank">malicious code</a> (direct link to pdf) e.g. computer viruses, and other malware;<br><br></li>
+<li><strong>medical diagnosis:</strong> AI systems, even though they are prone to errors like any other system, nevertheless tend to make doctors <a href="https://www.brainfacts.org/neuroscience-in-society/tech-and-the-brain/2024/why-ai-can-push-you-to-make-the-wrong-decision-at-work-090324" target="_blank">second-guess their own expertise</a>, which often leads to worse patient outcomes;<br><br></li>
+<li><strong>copy editing:</strong> the publisher of an academic journal used AI to 'copy edit' already proofed articles, and it was so bad that almost the entire editorial board <a href="https://retractionwatch.com/2024/12/27/evolution-journal-editors-resign-en-masse-to-protest-elsevier-changes/" target="_blank">quit en masse</a>;<br><br></li>
+<li><strong>marketing:</strong> AI is now <a href="https://futurism.com/the-byte/startup-spams-reddit-slop" target="_blank">flooding social media forums</a> with computer-generated posts and replies shilling products;</li>
+</ul>
+<h2 id="what-does-kevin-o-leary-see-in-ai">What does Kevin O'Leary see in AI?</h2>
+<ul>
+<li>Kevin O'Leary has a sadistic fantasy of using AI to <a href="https://thehill.com/opinion/technology/4686937-kevin-olearys-dystopian-fantasy-of-ruining-the-lives-of-campus-protesters/" target="_blank">ruin the lives of campus protestors forever</a>. Seriously, take a look at that link. Dude has serious problems.</li>
+</ul>
+
+
+<ul class="post-metadata">
+
+	<!-- 
+	<li><time datetime="2025-01-16">16 January 2025</time></li> 
+	-->
+	<li><a href="/tags/kevin-o-leary/" class="post-tag">Kevin O&#39;Leary</a>, </li>
+	<li><a href="/tags/ai/" class="post-tag">AI</a>, </li>
+	<li><a href="/tags/surveillance/" class="post-tag">surveillance</a>, </li>
+	<li><a href="/tags/employers/" class="post-tag">employers</a>, </li>
+	<li><a href="/tags/workers/" class="post-tag">workers</a>, </li>
+	<li><a href="/tags/disinformation/" class="post-tag">disinformation</a>, </li>
+	<li><a href="/tags/abuse/" class="post-tag">abuse</a>, </li>
+	<li><a href="/tags/grocery-prices/" class="post-tag">grocery prices</a>, </li>
+	<li><a href="/tags/housing-prices/" class="post-tag">housing prices</a></li>
+</ul>
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/pension-funds/">Your pension, up in smoke?</a></li>
+</ul>
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+
+    <hr>
+    <p>©2024-2025 Blunder Valley</p>
+		</footer>
+
+		<!-- This page `/blog/what-is-ai-good-for/` was built on 2025-01-16T09:03:26.551Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
