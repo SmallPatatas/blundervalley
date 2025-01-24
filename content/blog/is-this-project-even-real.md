@@ -1,6 +1,6 @@
 ---
 title: Is this project real, or just smoke and mirrors?
-description: Is Kevin O'Leary actually serious about building Wonder Valley, or is it just a publicity stunt? Too many things don't add up.
+description: Is Kevin O'Leary actually even serious about building Wonder Valley, or is it just a publicity stunt? Too many things don't add up.
 date: 2025-01-06
 tags: ["finance", "other", "drought", "wildfires"]
 draft: true
@@ -8,6 +8,9 @@ image: /img/smoky-and-peace-rivers-crop.jpg
 image_alt: "smoky and peace rivers crop"
 filename: "is-this-project-even-real/"
 ---
+## Too many things don't seem to add up about this project proposal. What game is Kevin O'Leary playing?
+
+You'd think that someone who listens to business proposals all day would understand the art of persuasion, right? Take Kevin O'Leary, famous for being the 'mean guy' on Dragon's Den and Shark Tank, shows in which a clique of grumpy aristocrats solicit pitches from entrepreneurs, and respond with snap judgements about either purchasing a portion of the business owner's soul, or sadistically shattering their dreams for the viewing public's amusement. You might expect O'Leary to have a keen eye for 
 
 ## Key points
 
@@ -25,6 +28,6 @@ filename: "is-this-project-even-real/"
 * Currently also talking about buying TikTok
 * O'Leary sees AI as a way to persecute young people
 * gas power is currently more expensive than renewables
-* 
+* O'Leary could just be trying to build a Bitcoin mine
 * O'Leary could be just trying to get a better deal from ND or WV
-* 
+* So far, no consultation w/ First Nations; only a temp water license; no submissions to EAC(? see CBC article)

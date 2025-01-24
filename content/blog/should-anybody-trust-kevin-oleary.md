@@ -18,3 +18,4 @@ filename: "should-anybody-trust-kevin-oleary/"
 * questions about bookkeeping in sale of TLC
 * may just be trying to get concessions or tax breaks from WV or ND
 * "economic union" with shared currency *is* undermining sovereignty
+* possibility that this is really about bitcoin mining, but getting 'AI' investment to do so
