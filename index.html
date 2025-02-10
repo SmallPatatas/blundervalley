@@ -305,10 +305,22 @@ header {
 }
 
 /* Posts list */
+
+.flex-postlist {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.flex-postlist li {
+	max-width: 19em;
+	padding: 20px;
+}
+
 .postlist {
 	list-style: none;
 	padding: 0;
-	padding-left: 1.5rem;
+	/*padding-left: 1.5rem;*/
 }
 .postlist-item {
 	display: flex;
@@ -348,8 +360,8 @@ header {
 }
 
 .postlist-image {
-	width: 240px;
-	height: 180px;
+	width: 280px;
+	height: 210px;
 	background-size: cover;
 	background-position: center;
 }
@@ -452,11 +464,14 @@ header {
 </ol>-->
 <ul reversed="" class="postlist" style="padding-left:0px;">
 
+<div class="flex-postlist">
+
 	<li> <!--class="postlist-item"-->
 		<div>
 		<div class="postlist-image" style="background-image:url(/img/groceries2.jpg);"></div>
-		<div><a href="/blog/tacit-collusion-groceries/" class="postlist-link">Bread Price Fixing? Pfft. The Real Innovation is AI-enabled &#39;Tacit Collusion&#39;</a></div>
-		<!-- <time class="postlist-date" datetime="2025-02-08">February 2025</time> -->
+		<div><time class="postlist-date" datetime="2025-02-08">Feb 08, 2025</time><br>
+		<a href="/blog/tacit-collusion-groceries/" class="postlist-link">Bread Price Fixing? Pfft. The Real Innovation is AI-enabled &#39;Tacit Collusion&#39;</a></div>
+		
 		</div>
 	</li>
 	<br><br>
@@ -464,8 +479,9 @@ header {
 	<li> <!--class="postlist-item"-->
 		<div>
 		<div class="postlist-image" style="background-image:url(/img/winter.jpg);"></div>
-		<div><a href="/blog/2025-january-recap/" class="postlist-link">News recap, January 2025</a></div>
-		<!-- <time class="postlist-date" datetime="2025-01-31">January 2025</time> -->
+		<div><time class="postlist-date" datetime="2025-01-31">Jan 31, 2025</time><br>
+		<a href="/blog/2025-january-recap/" class="postlist-link">News recap, January 2025</a></div>
+		
 		</div>
 	</li>
 	<br><br>
@@ -473,8 +489,9 @@ header {
 	<li> <!--class="postlist-item"-->
 		<div>
 		<div class="postlist-image" style="background-image:url(/img/oldman-dam-reservoir.jpg);"></div>
-		<div><a href="/blog/pincher-creek-proposal/" class="postlist-link">Enormous 4GW AI Data Centre Proposed For Drought-Affected Pincher Creek, Alberta</a></div>
-		<!-- <time class="postlist-date" datetime="2025-01-23">January 2025</time> -->
+		<div><time class="postlist-date" datetime="2025-01-23">Jan 23, 2025</time><br>
+		<a href="/blog/pincher-creek-proposal/" class="postlist-link">Enormous 4GW AI Data Centre Proposed For Drought-Affected Pincher Creek, Alberta</a></div>
+		
 		</div>
 	</li>
 	<br><br>
@@ -482,8 +499,9 @@ header {
 	<li> <!--class="postlist-item"-->
 		<div>
 		<div class="postlist-image" style="background-image:url(/img/hollywood-sign-fire-crop.jpg);"></div>
-		<div><a href="/blog/what-is-ai-good-for/" class="postlist-link">What is AI good for?</a></div>
-		<!-- <time class="postlist-date" datetime="2025-01-16">January 2025</time> -->
+		<div><time class="postlist-date" datetime="2025-01-16">Jan 16, 2025</time><br>
+		<a href="/blog/what-is-ai-good-for/" class="postlist-link">What is AI good for?</a></div>
+		
 		</div>
 	</li>
 	<br><br>
@@ -491,8 +509,9 @@ header {
 	<li> <!--class="postlist-item"-->
 		<div>
 		<div class="postlist-image" style="background-image:url(/img/burning-money.jpg);"></div>
-		<div><a href="/blog/pension-funds/" class="postlist-link">Your pension, up in smoke?</a></div>
-		<!-- <time class="postlist-date" datetime="2025-01-09">January 2025</time> -->
+		<div><time class="postlist-date" datetime="2025-01-09">Jan 09, 2025</time><br>
+		<a href="/blog/pension-funds/" class="postlist-link">Your pension, up in smoke?</a></div>
+		
 		</div>
 	</li>
 	<br><br>
@@ -500,8 +519,9 @@ header {
 	<li> <!--class="postlist-item"-->
 		<div>
 		<div class="postlist-image" style="background-image:url(/img/smoky-and-peace-rivers-crop.jpg);"></div>
-		<div><a href="/blog/water-consumption/" class="postlist-link">The Water Consumption Question</a></div>
-		<!-- <time class="postlist-date" datetime="2025-01-04">January 2025</time> -->
+		<div><time class="postlist-date" datetime="2025-01-04">Jan 04, 2025</time><br>
+		<a href="/blog/water-consumption/" class="postlist-link">The Water Consumption Question</a></div>
+		
 		</div>
 	</li>
 	<br><br>
@@ -509,12 +529,13 @@ header {
 	<li> <!--class="postlist-item"-->
 		<div>
 		<div class="postlist-image" style="background-image:url(/img/black-box-2.jpg);"></div>
-		<div><a href="/blog/so-many-unanswered-questions/" class="postlist-link">So Many Unanswered Questions</a></div>
-		<!-- <time class="postlist-date" datetime="2024-12-26">December 2024</time> -->
+		<div><time class="postlist-date" datetime="2024-12-26">Dec 26, 2024</time><br>
+		<a href="/blog/so-many-unanswered-questions/" class="postlist-link">So Many Unanswered Questions</a></div>
+		
 		</div>
 	</li>
 	<br><br>
-</ul>
+</div></ul>
 
 
 
@@ -533,7 +554,7 @@ header {
     <p>2024-2025 Blunder Valley.</p>
 		</footer>
 
-		<!-- This page `/` was built on 2025-02-09T18:43:01.190Z -->
+		<!-- This page `/` was built on 2025-02-10T06:35:21.320Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

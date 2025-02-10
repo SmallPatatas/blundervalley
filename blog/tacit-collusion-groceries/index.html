@@ -472,10 +472,22 @@ header {
 }
 
 /* Posts list */
+
+.flex-postlist {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.flex-postlist li {
+	max-width: 19em;
+	padding: 20px;
+}
+
 .postlist {
 	list-style: none;
 	padding: 0;
-	padding-left: 1.5rem;
+	/*padding-left: 1.5rem;*/
 }
 .postlist-item {
 	display: flex;
@@ -515,8 +527,8 @@ header {
 }
 
 .postlist-image {
-	width: 240px;
-	height: 180px;
+	width: 280px;
+	height: 210px;
 	background-size: cover;
 	background-position: center;
 }
@@ -609,7 +621,8 @@ header {
 <h3 id="tacit-collusion">'Tacit collusion'</h3>
 <p>Thankfully, Canada's Competition Bureau has started to look into the potential impact of AI systems on the prices Canadians pay for things like groceries and rent - things that we can't do without.</p>
 <p>One possibility mentioned in their recent report is that AI algorithms could, in effect, coordinate to gouge consumers without leaving any direct evidence:</p>
-<blockquote>"There is a risk of AI or algorithmic pricing systems facilitating tacit collusion in which systems autonomously align prices without explicit human instruction, communication, or agreement.
+<blockquote>
+<p>&quot;There is a risk of AI or algorithmic pricing systems facilitating tacit collusion in which systems autonomously align prices without explicit human instruction, communication, or agreement.</p>
 <p>Concerns were raised regarding accountability of the companies that implement these systems, and the ability of law enforcement to prove collusion in these cases.&quot; <a href="https://competition-bureau.canada.ca/how-we-foster-competition/education-and-outreach/consultation-artificial-intelligence-and-competition-what-we-heard#fn21-rf" target="_blank">[link]</a></p></blockquote><p></p>
 <p>This hardly seems like a stretch: AI systems marketed toward retailers are designed to automatically adjust prices in response to what competitors are doing. We know this because they say so in the marketing material!</p>
 <p>Now, the people promoting these systems like to claim that AI leads to lower prices through increased competitiveness. But if an algorithm is designed to maximize profit, then the real incentive is to charge as much as possible without losing customers. So, if the AI guesses that charging a few cents <em>more</em> than a competitor won't lead to customers driving an extra few minutes to the other place - well, it doesn't take long to see how this can result in prices creeping upward at both stores.</p>
@@ -646,7 +659,7 @@ header {
     <p>2024-2025 Blunder Valley.</p>
 		</footer>
 
-		<!-- This page `/blog/tacit-collusion-groceries/` was built on 2025-02-09T18:43:01.192Z -->
+		<!-- This page `/blog/tacit-collusion-groceries/` was built on 2025-02-10T06:35:21.321Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
