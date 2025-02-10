@@ -49,7 +49,9 @@ Thankfully, Canada's Competition Bureau has started to look into the potential i
 
 One possibility mentioned in their recent report is that AI algorithms could, in effect, coordinate to gouge consumers without leaving any direct evidence:
 
-<blockquote>"There is a risk of AI or algorithmic pricing systems facilitating tacit collusion in which systems autonomously align prices without explicit human instruction, communication, or agreement.
+<blockquote>
+
+"There is a risk of AI or algorithmic pricing systems facilitating tacit collusion in which systems autonomously align prices without explicit human instruction, communication, or agreement.
 
 Concerns were raised regarding accountability of the companies that implement these systems, and the ability of law enforcement to prove collusion in these cases." <a href="https://competition-bureau.canada.ca/how-we-foster-competition/education-and-outreach/consultation-artificial-intelligence-and-competition-what-we-heard#fn21-rf" target="_blank">[link]</a></blockquote>
 

@@ -280,10 +280,22 @@ header {
 }
 
 /* Posts list */
+
+.flex-postlist {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.flex-postlist li {
+	max-width: 19em;
+	padding: 20px;
+}
+
 .postlist {
 	list-style: none;
 	padding: 0;
-	padding-left: 1.5rem;
+	/*padding-left: 1.5rem;*/
 }
 .postlist-item {
 	display: flex;
@@ -323,8 +335,8 @@ header {
 }
 
 .postlist-image {
-	width: 240px;
-	height: 180px;
+	width: 280px;
+	height: 210px;
 	background-size: cover;
 	background-position: center;
 }
